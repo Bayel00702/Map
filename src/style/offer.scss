@@ -1,0 +1,65 @@
+.offer{
+  background: #F5F5F5;
+  padding: 38px 0;
+  text-align: right;
+
+  &__title{
+    font-weight: 900;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #7A7A7A;
+    position: relative;
+    margin-bottom: 40px;
+
+    &:before{
+      content: '';
+      width: 165px;
+      height: 3px;
+      background: #AFAFAF;
+      position: absolute;
+      left: 260px;
+      bottom: 22px;
+    }
+    &:after{
+      content: '';
+      width: 165px;
+      height: 3px;
+      background: #AFAFAF;
+      position: absolute;
+      right: 264px;
+      bottom: 22px;
+    }
+  }
+
+  &__row{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  &__card{
+    width: calc(25% - 15px);
+  }
+
+  &__btn{
+    font-weight: 400;
+    font-size: 11px;
+    padding: 15px 70px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #7A7A7A;
+    border-radius: 29px;
+    border: 1px solid #7A7A7A;
+    margin-top: 23px;
+    transition: .5s;
+
+    &:hover{
+      color: #7A7A7A;
+      background: transparent;
+      border: 1px solid #7A7A7A;
+      transition: .5s;
+    }
+  }
+}

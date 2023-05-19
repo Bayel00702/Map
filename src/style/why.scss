@@ -1,0 +1,51 @@
+.why{
+  padding: 57px 0 78px;
+  background: #323232;
+  text-align: center;
+
+  &__title{
+    font-weight: 900;
+    font-size: 32px;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+    position: relative;
+
+    &:before{
+      content: '';
+      width: 165px;
+      height: 3px;
+      background: #EBA707;
+      position: absolute;
+      left: 260px;
+      bottom: 36px;
+    }
+    &:after{
+      content: '';
+      width: 165px;
+      height: 3px;
+      background: #EBA707;
+      position: absolute;
+      right: 270px;
+    }
+  }
+
+  &__row{
+    display: flex;
+    column-gap: 39px;
+    justify-content: space-between;
+
+  }
+  &__card{
+
+    &-text{
+      font-weight: 400;
+      font-size: 16px;
+      color: #FFFFFF;
+      margin-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.position{
+  background: #606060;
+  padding: 60px 0 50px;
+
+  &__row{
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__left{
+
+    &-title{
+      font-weight: 700;
+      font-size: 36px;
+      color: #FFFFFF;
+    }
+    &-text{
+      font-weight: 300;
+      font-size: 22px;
+      color: #FFFFFF;
+      margin-top: 20px;
+    }
+  }
+
+  &__right{
+
+    &-btn{
+      font-weight: 400;
+      font-size: 12px;
+      color: #FFFFFF;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      background: #EBA707;
+      border-radius: 29px;
+      border: 1px solid #EBA707;
+      padding: 15px 60px;
+      transition: .5s;
+
+
+      &:hover{
+        background: transparent;
+        color: #FFFFFF;
+        border: 1px solid #EBA707;
+        transition: .5s;
+
+      }
+    }
+  }
+}

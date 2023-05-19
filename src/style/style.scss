@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Montserrat+Alternates:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Raleway:wght@200;300;700&family=Roboto:wght@300;400;500;700;900&family=Rubik+Mono+One&family=Rubik:wght@600&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background: #0C0C0C;
+}
+
+.container{
+  max-width: 1312px;
+  margin: 0 auto;
+}
+
+@import "header";
+@import "welcome";
+@import "why";
+@import "offer";
+@import "position";
+@import "footer";
